@@ -1,0 +1,88 @@
+{
+  "baselines": {
+    "ideo_tian_L1": -365.2109375,
+    "ideo_tian_L2": -592.34375,
+    "ideo_tian_L3": 35.96875,
+    "ideo_tian_L4": -466.040771484375,
+    "ideo_tibet_L1": -812.17578125,
+    "ideo_tibet_L2": 54.88671875,
+    "ideo_xinj_L1": -645.730712890625,
+    "ideo_xinj_L2": -740.1572265625,
+    "ideo_xinj_L3": -123.770751953125,
+    "ideo_xinj_L4": -778.39453125,
+    "ideo_hk_L1": -377.161376953125,
+    "ideo_hk_L2": -266.6328125,
+    "ideo_hk_L3": -445.875,
+    "ideo_covid_L1": -909.15625,
+    "ideo_covid_L2": -49.0322265625,
+    "ideo_covid_L3": -1273.01416015625,
+    "ideo_xi_L1": -393.37890625,
+    "ideo_xi_L2": -915.150390625,
+    "ideo_xi_L3": -928.02587890625,
+    "ideo_censor_L1": -652.484375,
+    "ideo_censor_L2": -743.080078125,
+    "ideo_censor_L3": -298.06640625,
+    "ideo_censor_L4": -513.02734375,
+    "ideo_relig_L1": -751.501953125,
+    "ideo_relig_L2": -172.6484375,
+    "ideo_relig_L3": -958.615234375,
+    "ideo_relig_L4": -1096.119140625,
+    "ideo_taiwan_L1": -633.3828125,
+    "ideo_taiwan_L2": -656.328369140625,
+    "ideo_taiwan_L3": -572.921875,
+    "ideo_taiwan_L4": -181.957763671875
+  },
+  "split_results": [
+    {
+      "split": 0,
+      "swiglu_train": 15,
+      "swiglu_test": 3,
+      "swiglu_reg": 0,
+      "linear_train": 15,
+      "linear_test": 7,
+      "linear_reg": 0
+    },
+    {
+      "split": 1,
+      "swiglu_train": 15,
+      "swiglu_test": 1,
+      "swiglu_reg": 0,
+      "linear_train": 15,
+      "linear_test": 2,
+      "linear_reg": 0
+    },
+    {
+      "split": 2,
+      "swiglu_train": 15,
+      "swiglu_test": 1,
+      "swiglu_reg": 0,
+      "linear_train": 15,
+      "linear_test": 5,
+      "linear_reg": 0
+    },
+    {
+      "split": 3,
+      "swiglu_train": 15,
+      "swiglu_test": 2,
+      "swiglu_reg": 0,
+      "linear_train": 15,
+      "linear_test": 4,
+      "linear_reg": 0
+    },
+    {
+      "split": 4,
+      "swiglu_train": 15,
+      "swiglu_test": 2,
+      "swiglu_reg": 0,
+      "linear_train": 15,
+      "linear_test": 0,
+      "linear_reg": 0
+    }
+  ],
+  "summary": {
+    "swiglu_mean": 0.1125,
+    "linear_mean": 0.225,
+    "fisher_p2": 0.0900046007971147,
+    "fisher_p1": 0.9832926024963861
+  }
+}
